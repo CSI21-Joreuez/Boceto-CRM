@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM-Poryecto", "CRM-Poryecto\CRM-Poryecto.csproj", "{2C6F2856-3117-42F3-BCD9-9EED28817F85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{0740EAB0-5ECE-441F-AC13-2853DB6A2205}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C6F2856-3117-42F3-BCD9-9EED28817F85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C6F2856-3117-42F3-BCD9-9EED28817F85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C6F2856-3117-42F3-BCD9-9EED28817F85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C6F2856-3117-42F3-BCD9-9EED28817F85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0740EAB0-5ECE-441F-AC13-2853DB6A2205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0740EAB0-5ECE-441F-AC13-2853DB6A2205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0740EAB0-5ECE-441F-AC13-2853DB6A2205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0740EAB0-5ECE-441F-AC13-2853DB6A2205}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EAEE2CB-D443-4CF2-86BE-39FA2ECDAD03}
+	EndGlobalSection
+EndGlobal

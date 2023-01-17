@@ -1,0 +1,32 @@
+﻿@page
+@model CRM_Poryecto.Pages.LoginModel
+@{
+
+    <ul class="navbar-nav flex-grow-1">
+
+                            <li class="nav-item">
+            @if (User.IsInRole("admin") || User.IsInRole("user"))
+            {
+                                        <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+            }
+                            </li>
+                            <li class="nav-item">
+            @if (User.IsInRole("admin") || User.IsInRole("user"))
+            { 
+                                    <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+            }
+                            </li>
+                            <li class="nav-item">
+            @if (User.IsInRole("admin") || User.IsInRole("user"))
+            {
+                                    <a class="nav-link text-dark" asp-area="" asp-page="/Login/Login">Login</a> 
+            }
+                            </li>
+                            <li class="nav-item">
+            @if (User.IsInRole("admin") || User.IsInRole("user"))
+            {
+                                    <a class="nav-link text-dark" asp-area="" asp-page="/Register/Register">Register</a>
+            }
+                            </li>
+    </ul>
+}
